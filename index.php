@@ -1,4 +1,9 @@
 <?php
+// filepath: /C:/Users/stefa/Desktop/Git Hub/API Eshop/index.php
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $directory = '.';
 $files = scandir($directory);
 
